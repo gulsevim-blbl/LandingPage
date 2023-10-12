@@ -13,7 +13,7 @@ html{
 
     font-family: 'Open Sans', sans-serif;
 }
-
+/* Navbar Section */
 #navbar{
     color: #fff;
     display: flex;
@@ -36,3 +36,33 @@ html{
     background: #336ea2;
     border-radius: 10px;
 }
+
+/* Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name{
+   text-align: center; 
+}
+
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+    margin-bottom: 1.25rem;
+}
+
